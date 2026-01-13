@@ -1,0 +1,11 @@
+s = "geeksforGeeks"
+s = "G" + s[1:]   # create new string
+print(s)
+
+#Output GeeksforGeeks
+
+Strings are immutable, which means that they cannot be changed after they are created.
+If we need to manipulate strings then we can use methods like
+  1.concatenation
+  2.slicing 
+  3.or formatting to create new strings based on original.
